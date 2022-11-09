@@ -6,11 +6,11 @@ import { faLinkedin, faFacebookSquare, faGithubSquare, faTwitterSquare, faInstag
 export default function Footer() {
     return(
         <footer className="footer-section">
-            <FontAwesomeIcon className="icon-rrss" icon={faLinkedin} />
-            <FontAwesomeIcon className="icon-rrss" icon={faFacebookSquare} />
-            <FontAwesomeIcon className="icon-rrss" icon={faGithubSquare} />
-            <FontAwesomeIcon className="icon-rrss" icon={faTwitterSquare} />
-            <FontAwesomeIcon className="icon-rrss" icon={faInstagramSquare} />
+            <a href="https://www.linkedin.com/in/ceciliadelaparra/"><FontAwesomeIcon className="icon-rrss" icon={faLinkedin} /></a>
+            <a href="https://www.facebook.com"><FontAwesomeIcon className="icon-rrss" icon={faFacebookSquare} /></a>
+            <a href="https://github.com/cecidlp"><FontAwesomeIcon className="icon-rrss" icon={faGithubSquare} /></a>
+            <a href="https://www.twitter.com"><FontAwesomeIcon className="icon-rrss" icon={faTwitterSquare} /></a>
+            <a href="https://www.instagram.com/ceciparrafotografia/"><FontAwesomeIcon className="icon-rrss" icon={faInstagramSquare} /></a>
         </footer>
        
     )
