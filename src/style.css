@@ -62,7 +62,7 @@ body {
   font-weight: normal;
 }
 
-a {
+.web-link {
   font-size: 0.7em;
   text-decoration: none;
   color: #F5F5F5;
@@ -205,5 +205,6 @@ width: 80%;
   .icon-rrss {
     height: 1rem;
   }
+  
 
 }
